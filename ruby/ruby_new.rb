@@ -36,6 +36,16 @@
 #COMPARISON OPERATORS
 # puts 10.eql?('10')
 def mutipy(first_num,second_num)
-    puts first_num*second_num
+    puts first_num%second_num
 end
-mutipy(2,5)
+mutipy(10,4)
+
+#BRANCHING OR>> IF_ELSE STATEMENT
+condition =true
+anotherCondition=false
+if condition || anotherCondition
+    puts "yess"
+else
+    puts "nope"
+    
+end
