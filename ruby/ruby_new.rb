@@ -49,3 +49,15 @@ else
     puts "nope"
     
 end
+
+#if elseif else
+name='Jovan'
+if name=='jack'
+    puts "Welcom to the program jack"
+elsif name== 'Jovan'
+    puts "Welcom to the program jovan"
+else
+    puts "Welcom to the program jack"   
+end
+
+
