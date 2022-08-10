@@ -5,6 +5,7 @@ def say_Hello(word)
     puts word
 end
 
+
 say_Hello('jovan')
 say_Hello('helo shee')
 
@@ -15,8 +16,13 @@ syaKill
 
 
 #STRING INTERPOLATION/ CONCATINATION
-firstName="Jovan"
-lastName="Sidney"
-fullName="#{firstName} #{lastName}"
-puts fullName
-puts "my first name is #{firstName} and  last name is #{lastName}"
+# firstName="Jovan"
+# lastName="Sidney"
+# fullName="#{firstName} #{lastName}"
+# puts fullName
+# puts "my first name is #{firstName} and  last name is #{lastName}"
+
+
+#user input
+ ffirstName= gets.chomp
+ puts"#{ffirstName}"
