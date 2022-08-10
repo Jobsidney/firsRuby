@@ -34,4 +34,8 @@
 # puts "end"
 
 #COMPARISON OPERATORS
-puts 10.eql?('10')
+# puts 10.eql?('10')
+def mutipy(first_num,second_num)
+    puts first_num*second_num
+end
+mutipy(2,5)
