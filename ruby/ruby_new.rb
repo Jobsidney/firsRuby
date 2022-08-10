@@ -1,18 +1,18 @@
 # greetingd ="hello juma"
 # puts greetingd;
 
-def say_Hello(word)
-    puts word
-end
+# def say_Hello(word)
+#     puts word
+# end
 
 
-say_Hello('jovan')
-say_Hello('helo shee')
+# say_Hello('jovan')
+# say_Hello('helo shee')
 
-def syaKill
-    puts 'killing '
-end
-syaKill
+# def syaKill
+#     puts 'killing '
+# end
+# syaKill
 
 
 #STRING INTERPOLATION/ CONCATINATION
@@ -24,5 +24,14 @@ syaKill
 
 
 #user input
- ffirstName= gets.chomp
- puts"#{ffirstName}"
+#  ffirstName= gets.chomp
+#  puts"#{ffirstName}"
+
+#  num="hello".length
+#  puts "#{num}"
+
+# 25.times{print"-"}
+# puts "end"
+
+#COMPARISON OPERATORS
+puts 10.eql?('10')
